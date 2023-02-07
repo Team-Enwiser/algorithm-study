@@ -32,10 +32,10 @@ This is algorithm study for Enwiser
 - 그리디(Greedy): 소현
 - 구현(Implementation): 주형
 - DFS/BFS:
-- 정렬(Sort):
+- 정렬(Sorting):
 - 이진탐색(Binary Search):
 - DP:
-- 최단경로():
+- 최단경로(Shortest Path):
 - 그래프 이론(Graph theory):
 
 ## References
