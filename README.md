@@ -13,7 +13,7 @@ This is algorithm study for Enwiser
 ## Goal
 
 - Conquest '이것이 코딩 테스트다 with 파이썬'
-- Tuesday meeting is algorithm problem solving explantion class
+- Wednesday meeting is algorithm problem solving explantion class
 - Sunday meeting is algorithm theory class
 - 1 day, 1 commit
 
@@ -21,7 +21,7 @@ This is algorithm study for Enwiser
 
 1. Start at 2023-02-01, Finish at 2023-05-31
 2. Meeting periods is per weeks, 2day in Feb
-3. More detaily Tues 08:00(PM), Sun 02:00(PM) meet at discord
+3. More detaily Wed 08:00(PM), Sun 02:00(PM) meet at discord
 
 ## Languages
 
@@ -31,9 +31,9 @@ This is algorithm study for Enwiser
 
 - 그리디(Greedy): 소현
 - 구현(Implementation): 주형
-- DFS/BFS:
-- 정렬(Sorting):
-- 이진탐색(Binary Search):
+- DFS/BFS: 희수
+- 정렬(Sorting): 소현
+- 이진탐색(Binary Search): 주형
 - DP:
 - 최단경로(Shortest Path):
 - 그래프 이론(Graph theory):
