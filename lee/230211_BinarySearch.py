@@ -42,3 +42,23 @@ if result == 'None':
     print('No such result')
 else:
     print(f"Result is {result}")
+
+# bisect
+from bisect import bisect_left, bisect_right
+arr = [n for n in range(20) if n % 2 == 0]
+target = 4
+
+print(bisect_left(arr, target))
+print(bisect_right(arr, target))
+
+# bisect count
+from bisect import bisect_left, bisect_right
+
+def count_by_range(arr, left, right):
+    right_idx = bisect_right(arr, right)
+    left_idx = bisect_left(arr, left)
+    return right_idx - left_idx
+
+arr = [n for n in range(20) if n % 2 == 0]
+print(count_by_range(arr, 4, 4))
+print(count_by_range(arr, -1, 3))
