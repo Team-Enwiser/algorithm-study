@@ -19,7 +19,7 @@ for a in range(n):
             #print(result)
             queue = deque([(a, b)])
             #print(queue)
-            iList[a][b] = 1
+            iList[a][b] = '1'
 
             while queue:
                 #print(queue)
@@ -29,7 +29,7 @@ for a in range(n):
                 for i in move:
                     if 0 <= v[0]+i < n:
                         if iList[v[0]+i][v[1]] == '0':
-                            queue.append((v[0]+1, v[1]))
+                            queue.append((v[0]+i, v[1]))
                             iList[v[0]+i][v[1]] = '1'
                 for i in move:
                     if 0 <= v[1]+i < m:
