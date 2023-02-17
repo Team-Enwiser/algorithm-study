@@ -40,6 +40,7 @@ while queue:
         result += 1
         break
     
+    #탐색한 거리.
     count1 -= 1
     if count1 == 0:
         #print()

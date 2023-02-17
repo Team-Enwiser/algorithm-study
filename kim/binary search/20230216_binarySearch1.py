@@ -13,6 +13,7 @@ def binary(dList, target, start, end):
 
         if result > target:
             start = mid + 1
+            #조건에 해당하는 값들 리스트에 추가
             final.append(mid)
         elif result < target:
             end = mid - 1
@@ -27,6 +28,7 @@ if a == None:
     if final == []:
         print("can't")
     else: 
+        #리스트에 들어있는 값 중 제일 높은 값
         print(max(final))
 else:
     print(a)

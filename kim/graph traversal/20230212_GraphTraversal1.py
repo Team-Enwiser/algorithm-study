@@ -27,11 +27,13 @@ for a in range(n):
                 #print(v, end=' ')
                    
                 for i in move:
+                    #위, 아래 탐색
                     if 0 <= v[0]+i < n:
                         if iList[v[0]+i][v[1]] == '0':
                             queue.append((v[0]+i, v[1]))
                             iList[v[0]+i][v[1]] = '1'
                 for i in move:
+                    #왼, 오른쪽 탐색
                     if 0 <= v[1]+i < m:
                         if iList[v[0]][v[1]+i] == '0':
                             queue.append((v[0], v[1]+i))
