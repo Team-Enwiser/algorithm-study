@@ -14,17 +14,18 @@ def sibal(x):
         return d[x]
     
     d[x] = a[x] + max(sibal(x+2), sibal(x+3))
-    # i = sibal(x+2)
+    
+    return d[x]
+
+print(max(sibal(0), sibal(1)))
+
+ # i = sibal(x+2)
     # j = sibal(x+3)
     
     # if i > j:
     #     d[x] = a[x] + i
     # else:
     #     d[x] = a[x] + j
-    
-    return d[x]
-
-print(max(sibal(0), sibal(1)))
 # x = sibal(0)
 # y = sibal(1)
 # if x > y:
