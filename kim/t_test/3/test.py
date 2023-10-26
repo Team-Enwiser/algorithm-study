@@ -22,36 +22,36 @@
 
 # print(fL)
 
-n = int(input())
-iL = []
+# n = int(input())
+# iL = []
 
-for i in range(n):
-    a, b, c = map(int, input().split())
-    li = [a, b, c]
-    iL.append(li)
+# for i in range(n):
+#     a, b, c = map(int, input().split())
+#     li = [a, b, c]
+#     iL.append(li)
     
-li = list("104")
+# li = list("104")
 
 
-delete = []
-for j in iL:
-    print(j[0], j[1], j[2])
-    jli = list(str(j[0]))
+# delete = []
+# for j in iL:
+#     print(j[0], j[1], j[2])
+#     jli = list(str(j[0]))
 
-    count1 = 0
-    count2 = 0
-    for k in range(3):
+#     count1 = 0
+#     count2 = 0
+#     for k in range(3):
 
-        if li[k] == jli[k]:
-            count1 += 1
-            print(f"count1 {count1}")
-        elif li[k] == jli[0] or li[k] == jli[1] or li[k] == jli[2]:
-            count2 += 1
-            print(f"count2 {count2}")
-        if count1 != j[1] and count2 != j[2]:
-            delete.append("324")
-    print(count1)
-    print(count2)
-    print(delete)
-    print()
+#         if li[k] == jli[k]:
+#             count1 += 1
+#             print(f"count1 {count1}")
+#         elif li[k] == jli[0] or li[k] == jli[1] or li[k] == jli[2]:
+#             count2 += 1
+#             print(f"count2 {count2}")
+#         if count1 != j[1] and count2 != j[2]:
+#             delete.append("324")
+#     print(count1)
+#     print(count2)
+#     print(delete)
+#     print()
 

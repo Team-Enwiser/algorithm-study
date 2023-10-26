@@ -9,7 +9,6 @@ j = 0
 while True:
     a = p1 + i * x
     b = p2 + j * y
-    print(a, b)
     if a == b:
         print(a)
         break
